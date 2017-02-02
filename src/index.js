@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './App'
+import Root from './Root'
 
 render(
-  <App title="Redux tutorial" />,
+  <Root title="Redux tutorial" />,
   document.querySelector('#app')
 )
